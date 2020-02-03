@@ -2,7 +2,200 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <title>Tesla</title>
   </head>
   <body>
+    <header class="header">
+      <nav class="nav">
+      	<!-- Левая часть навигации (логотип) -->
+      	<img class="nav__logo" src="img/Tesla-Wordmark-Red.svg" alt="логотип">
+      	<!-- Центральная часть навигации (ссылки на модели) -->
+      	<div class="nav__models">
+      	  <a href="#" class="nav__link nav__link_active">Model S</a>
+      	  <a href="#" class="nav__link">Model X</a>
+      	  <a href="#" class="nav__link">Model 3</a>
+      	  <a href="#" class="nav__link">Roadster</a>
+      	  <a href="#" class="nav__link">Energy</a>
+      	</div>
+      	<!-- Правая часть навигации (остальные ссылки и бургер) -->
+      	<div class="nav__items">
+      	  <a href="#" class="nav__link">Магазин</a>
+      	  <a href="#" class="nav__link">Войти</a>
+      	  <img src="img/Vector.svg" alt="меню" class="nav__menu">
+      	</div>
+      </nav>
+    </header>
+    <section class="car-logo">
+      <!-- Заголовок страницы, изображение авто и полупрозрачный лого на фоне — начало -->
+      <div class="car-logo__img-wrap">
+        <!-- Блок с логотипом на фоне и заголовком — начало -->
+        <div class="car-logo__logo">
+          <h1 class="car-logo__title">Model S</h1>
+          <p class="car-logo__desc">Добро пожаловать в будущее!</p>
+        </div>
+        <!-- Блок с логотипом на фоне и заголовком — конец -->
+        <img src="img/tesla-png-tesla-png-hd-1636.svg" alt="автомобиль модели S" class="car-logo__car">
+      </div>
+      <!-- Заголовок страницы, изображение авто и полупрозрачный лого на фоне — конец -->
+      <!-- Блок с преимуществами и кнопками -->
+      <div class="car-logo__features car-logo-features">
+      	<div class="car-logo-features__item features-item features-item_black">
+      	  <div class="features-item__icon"><img src="img/Group.svg" alt="иконка спидометра"></div>
+      	  <div class="features-item__numeral">2,7</div>
+      	  <div class="features-item__desc-big">сек</div>
+      	  <div class="features-item__desc-small">0-100 км/ч</div>
+      	</div>
+      	<div class="car-logo-features__item features-item features-item_black">
+      	  <div class="features-item__icon"><img src="img/Road icon.svg" alt="иконка дороги"></div>
+      	  <div class="features-item__numeral">632</div>
+      	  <div class="features-item__desc-big">км</div>
+      	  <div class="features-item__desc-small">запас хода</div>
+      	</div>
+      	<div class="car-logo-features__item btn-icon btn-icon_black">
+      	  <img src="img/steering-wheel.svg" alt="иконка с изображением руля" class="btn-icon__icon">
+      	  <span class="btn-icon__text">Тест драйв</span>
+      	</div>
+      	<div class="car-logo-features__item btn-order btn-order_red">
+      	  Заказать
+      	</div>
+      </div>
+      <!-- Стрелка вниз -->
+      <div class="arrow-to-down">
+      	<img src="img/down.svg" alt="стрелка вниз" class="arrow-to-down__img">
+      </div>
+    </section>
+    <section class="cockpit">
+      <!-- Левая часть секции (заголвок и картинка кабины) -->
+      <div class="cockpit__img-wrap">
+      	<h2 class="cockpit__title">Model S</h2>
+        <img src="img/2013-tesla-model-s-cockpit.svg" alt="изображение кабины автомобиля" class="cockpit__img">
+      </div>
+      <!-- Правая часть секции (блок описания) -->
+      <div class="cockpit__desc desc-block">
+      	<!-- Текст с заголовком -->
+      	<div class="desc-block__text-block">
+      	  <h3 class="desc-block__title">Будущее вождения</h3>
+      	  <p class="desc-block__text">
+      	    Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
+      	  </p>
+      	</div>
+      	<!-- Преимущества (переиспользуем класс features-item) -->
+      	<div class="desc-block__features desc-block-features">
+      	  <div class="desc-block-features__item features-item features-item_white">
+      	    <div class="features-item__icon"><img src="img/screen.svg" alt="иконка дисплея"></div>
+      	    <div class="features-item__numeral">17</div>
+      	    <div class="features-item__desc-big">дюймов</div>
+      	    <div class="features-item__desc-small">Большой дисплей</div>
+      	  </div>
+      	  <div class="desc-block-features__item features-item features-item_white">
+      	    <div class="features-item__icon"><img src="img/wi-fi.svg" alt="иконка беспроводного соединения"></div>
+      	    <div class="features-item__numeral"></div>
+      	    <div class="features-item__desc-big">Беспроводное обновление ПО</div>
+      	    <div class="features-item__desc-small">Повышенная функциональность</div>
+      	  </div>
+      	  <div class="desc-block-features__item features-item features-item_white">
+      	    <div class="features-item__icon"><img src="img/bag.svg" alt="иконка багажа"></div>
+      	    <div class="features-item__numeral">894</div>
+      	    <div class="features-item__desc-big">литра</div>
+      	    <div class="features-item__desc-small">Объем грузового пространства</div>
+      	  </div>
+      	</div>
+      	<!-- Кнопки (переиспользуем стили кнопок btn-icon и btn-order) -->
+      	<div class="desc-block__buttons">
+      	  <div class="btn-icon btn-icon_white">
+      	    <img src="img/inf.svg" alt="иконка с информацией" class="btn-icon__icon">
+      	    <span class="btn-icon__text">Узнать больше</span>
+      	  </div>
+      	  <div class="btn-order btn-order_white">
+      	  Заказать
+      	  </div>
+      	</div>
+      </div>
+    </section>
+    <section class="car-frame">
+      <!-- Левая часть секции (блок описания — переиспользуем desc-block и его элементы text-block и buttons) -->
+      <div class="car-frame__desc desc-block">
+        <!-- Текст с заголовком -->
+      	<div class="desc-block__text-block">
+      	  <h3 class="desc-block__title">Самый безопасный автомобиль в мире</h3>
+      	  <p class="desc-block__text">
+      	    Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
+      	  </p>
+      	</div>
+      	<!-- Добавили новый блок protection для описания оценки защиты -->
+        <div class="desc-block__protection protection">
+      	  <h3 class="desc-block__title">Оценка защиты:</h3>
+      	  <div class="protection__test-list">
+      	  	<p class="protection__test-item">Спереди</p>
+      	  	<p class="protection__test-item">Сбоку</p>
+      	  	<p class="protection__test-item">Сбоку <span class="protection__clarification">(стойка)</span> </p>
+      	  	<p class="protection__test-item">Водитель</p>
+      	  	<p class="protection__test-item">Пассажир</p>
+      	  </div>
+      	  <div class="protection__value-list">
+      	  	<p class="protection__value-item">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</p>
+      	  	<p class="protection__value-item">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</p>
+      	  	<p class="protection__value-item">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</p>
+      	  	<p class="protection__value-item">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</p>
+      	  	<p class="protection__value-item">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</p>
+      	  </div>
+      	</div>
+      	<!-- Добавили новый блок safety-sign для описания знака защиты (5 звезд безопасности) -->
+      	<div class="desc-block__safety-sign safety-sign">
+      	  <div class="safety-sign__sign">
+      	  	<img src="img/security.svg" alt="иконка знак безопасности">
+      	  </div>
+      	  <div class="safety-sign__text">
+      	  	<p class="safety-sign__big-text">5 звезд</p>
+      	  	<p class="safety-sign__small-text">безопасности</p>
+      	  </div>
+      	</div>
+      	<!-- Кнопки -->
+      	<div class="desc-block__buttons">
+      	  <div class="btn-icon btn-icon_white">
+      	    <img src="img/inf.svg" alt="иконка с информацией" class="btn-icon__icon">
+      	    <span class="btn-icon__text">Узнать больше</span>
+      	  </div>
+      	  <div class="btn-order btn-order_white">
+      	  Заказать
+      	  </div>
+      	</div>
+      </div>
+      <!-- Правый блок (изображение схемы авто с логотипом на фоне) -->
+      <div class="car-frame__img-wrap">
+      	<img src="img/Car frame group.svg" alt="Изображение схемы авто" class="car-frame__img">
+      </div>
+      <img src="img/WH.svg" alt="разработано в WebHero School" class="wh-logo">
+    </section>
   </body>
 </html>
