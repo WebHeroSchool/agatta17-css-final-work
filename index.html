@@ -27,7 +27,7 @@
     </header>
     <section class="car-logo">
       <!-- Заголовок страницы, изображение авто и полупрозрачный лого на фоне — начало -->
-      <div class="car-logo__img-wrap">
+      <div class="car-logo__wrap">
         <!-- Блок с логотипом на фоне и заголовком — начало -->
         <div class="car-logo__logo">
           <h1 class="car-logo__title">Model S</h1>
@@ -38,24 +38,24 @@
       </div>
       <!-- Заголовок страницы, изображение авто и полупрозрачный лого на фоне — конец -->
       <!-- Блок с преимуществами и кнопками -->
-      <div class="car-logo__features car-logo-features">
-      	<div class="car-logo-features__item features-item features-item_black">
-      	  <div class="features-item__icon"><img src="img/Group.svg" alt="иконка спидометра"></div>
-      	  <div class="features-item__numeral">2,7</div>
-      	  <div class="features-item__desc-big">сек</div>
-      	  <div class="features-item__desc-small">0-100 км/ч</div>
+      <div class="features">
+      	<div class="features__item feature feature_black">
+      	  <div class="feature__icon"><img src="img/Group.svg" alt="иконка спидометра"></div>
+      	  <div class="feature__numeral">2,7</div>
+      	  <div class="feature__desc-big">сек</div>
+      	  <div class="feature__desc-small">0-100 км/ч</div>
       	</div>
-      	<div class="car-logo-features__item features-item features-item_black">
-      	  <div class="features-item__icon"><img src="img/Road icon.svg" alt="иконка дороги"></div>
-      	  <div class="features-item__numeral">632</div>
-      	  <div class="features-item__desc-big">км</div>
-      	  <div class="features-item__desc-small">запас хода</div>
+      	<div class="features__item feature feature_black">
+      	  <div class="feature__icon"><img src="img/Road icon.svg" alt="иконка дороги"></div>
+      	  <div class="feature__numeral">632</div>
+      	  <div class="feature__desc-big">км</div>
+      	  <div class="feature__desc-small">запас хода</div>
       	</div>
-      	<div class="car-logo-features__item btn-icon btn-icon_black">
-      	  <img src="img/steering-wheel.svg" alt="иконка с изображением руля" class="btn-icon__icon">
-      	  <span class="btn-icon__text">Тест драйв</span>
+      	<div class="features__item button-icon button-icon_black">
+      	  <img src="img/steering-wheel.svg" alt="иконка с изображением руля" class="button-icon__icon">
+      	  <span class="button-icon__text">Тест драйв</span>
       	</div>
-      	<div class="car-logo-features__item btn-order btn-order_red">
+      	<div class="features__item button-order button-order_red">
       	  Заказать
       	</div>
       </div>
@@ -66,7 +66,7 @@
     </section>
     <section class="cockpit">
       <!-- Левая часть секции (заголвок и картинка кабины) -->
-      <div class="cockpit__img-wrap">
+      <div class="cockpit__wrap">
       	<h2 class="cockpit__title">Model S</h2>
         <img src="img/2013-tesla-model-s-cockpit.svg" alt="изображение кабины автомобиля" class="cockpit__img">
       </div>
@@ -79,34 +79,34 @@
       	    Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
       	  </p>
       	</div>
-      	<!-- Преимущества (переиспользуем класс features-item) -->
-      	<div class="desc-block__features desc-block-features">
-      	  <div class="desc-block-features__item features-item features-item_white">
-      	    <div class="features-item__icon"><img src="img/screen.svg" alt="иконка дисплея"></div>
-      	    <div class="features-item__numeral">17</div>
-      	    <div class="features-item__desc-big">дюймов</div>
-      	    <div class="features-item__desc-small">Большой дисплей</div>
+      	<!-- Преимущества (переиспользуем класс feature) -->
+      	<div class="desc-block__features">
+      	  <div class="feature feature_white">
+      	    <div class="feature__icon"><img src="img/screen.svg" alt="иконка дисплея"></div>
+      	    <div class="feature__numeral">17</div>
+      	    <div class="feature__desc-big">дюймов</div>
+      	    <div class="feature__desc-small">Большой дисплей</div>
       	  </div>
-      	  <div class="desc-block-features__item features-item features-item_white">
-      	    <div class="features-item__icon"><img src="img/wi-fi.svg" alt="иконка беспроводного соединения"></div>
-      	    <div class="features-item__numeral"></div>
-      	    <div class="features-item__desc-big">Беспроводное обновление ПО</div>
-      	    <div class="features-item__desc-small">Повышенная функциональность</div>
+      	  <div class="feature feature_white">
+      	    <div class="feature__icon"><img src="img/wi-fi.svg" alt="иконка беспроводного соединения"></div>
+      	    <div class="feature__numeral"></div>
+      	    <div class="feature__desc-big">Беспроводное обновление ПО</div>
+      	    <div class="feature__desc-small">Повышенная функциональность</div>
       	  </div>
-      	  <div class="desc-block-features__item features-item features-item_white">
-      	    <div class="features-item__icon"><img src="img/bag.svg" alt="иконка багажа"></div>
-      	    <div class="features-item__numeral">894</div>
-      	    <div class="features-item__desc-big">литра</div>
-      	    <div class="features-item__desc-small">Объем грузового пространства</div>
+      	  <div class="feature feature_white">
+      	    <div class="feature__icon"><img src="img/bag.svg" alt="иконка багажа"></div>
+      	    <div class="feature__numeral">894</div>
+      	    <div class="feature__desc-big">литра</div>
+      	    <div class="feature__desc-small">Объем грузового пространства</div>
       	  </div>
       	</div>
-      	<!-- Кнопки (переиспользуем стили кнопок btn-icon и btn-order) -->
+      	<!-- Кнопки (переиспользуем стили кнопок button-icon и button-order) -->
       	<div class="desc-block__buttons">
-      	  <div class="btn-icon btn-icon_white">
-      	    <img src="img/inf.svg" alt="иконка с информацией" class="btn-icon__icon">
-      	    <span class="btn-icon__text">Узнать больше</span>
+      	  <div class="button-icon button-icon_white">
+      	    <img src="img/inf.svg" alt="иконка с информацией" class="button-icon__icon">
+      	    <span class="button-icon__text">Узнать больше</span>
       	  </div>
-      	  <div class="btn-order btn-order_white">
+      	  <div class="button-order button-order_white">
       	  Заказать
       	  </div>
       	</div>
@@ -123,52 +123,58 @@
       	  </p>
       	</div>
       	<!-- Добавили новый блок protection для описания оценки защиты -->
-        <div class="desc-block__protection protection">
+        <div class="protection">
       	  <h3 class="desc-block__title">Оценка защиты:</h3>
-      	  <div class="protection__test-list">
-      	  	<p class="protection__test-item">Спереди</p>
-      	  	<p class="protection__test-item">Сбоку</p>
-      	  	<p class="protection__test-item">Сбоку <span class="protection__clarification">(стойка)</span> </p>
-      	  	<p class="protection__test-item">Водитель</p>
-      	  	<p class="protection__test-item">Пассажир</p>
-      	  </div>
-      	  <div class="protection__value-list">
-      	  	<p class="protection__value-item">
+      	  <p class="protection__item">
+      	    <p class="protection__text">Спереди</p>
+      	    <div class="protection__star">
+      	      <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	</p>
-      	  	<p class="protection__value-item">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	</p>
-      	  	<p class="protection__value-item">
+      	  	</div>
+      	  </p>
+      	  <p class="protection__item">
+      	    <p class="protection__text">Сбоку</p>
+      	    <div class="protection__star">
+      	      <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	</p>
-      	  	<p class="protection__value-item">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	  <img src="img/Star.svg" alt="звезда">
-      	  	</p>
-      	  	<p class="protection__value-item">
+      	  	</div>
+      	  </p>
+      	  <p class="protection__item">
+      	    <p class="protection__text">Сбоку <span class="protection__clarification">(стойка)</span></p>
+      	    <div class="protection__star">
+      	      <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</div>
+      	  </p>
+      	  <p class="protection__item">
+      	    <p class="protection__text">Водитель</p>
+      	    <div class="protection__star">
+      	      <img src="img/Star.svg" alt="звезда">
       	  	  <img src="img/Star.svg" alt="звезда">
-      	  	</p>
-      	  </div>
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</div>
+      	  </p>
+      	  <p class="protection__item">
+      	    <p class="protection__text">Пассажир</p>
+      	    <div class="protection__star">
+      	      <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	  <img src="img/Star.svg" alt="звезда">
+      	  	</div>
+      	  </p>
       	</div>
       	<!-- Добавили новый блок safety-sign для описания знака защиты (5 звезд безопасности) -->
       	<div class="desc-block__safety-sign safety-sign">
@@ -182,17 +188,17 @@
       	</div>
       	<!-- Кнопки -->
       	<div class="desc-block__buttons">
-      	  <div class="btn-icon btn-icon_white">
-      	    <img src="img/inf.svg" alt="иконка с информацией" class="btn-icon__icon">
-      	    <span class="btn-icon__text">Узнать больше</span>
+      	  <div class="button-icon button-icon_white">
+      	    <img src="img/inf.svg" alt="иконка с информацией" class="button-icon__icon">
+      	    <span class="button-icon__text">Узнать больше</span>
       	  </div>
-      	  <div class="btn-order btn-order_white">
+      	  <div class="button-order button-order_white">
       	  Заказать
       	  </div>
       	</div>
       </div>
       <!-- Правый блок (изображение схемы авто с логотипом на фоне) -->
-      <div class="car-frame__img-wrap">
+      <div class="car-frame__wrap">
       	<img src="img/Car frame group.svg" alt="Изображение схемы авто" class="car-frame__img">
       </div>
       <img src="img/WH.svg" alt="разработано в WebHero School" class="wh-logo">
