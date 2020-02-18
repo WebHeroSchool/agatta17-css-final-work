@@ -1,6 +1,7 @@
 body {
   font: normal 600 15px/18px Montserrat;
   margin: 0;
+  /*width: 1440px;*/
 }
 
 .header {
@@ -122,7 +123,6 @@ body {
 .feature__desc-big {
   display: inline-block;
   font-size: 20px;
-  line-height: 24px;
 }
 
 .feature__desc-small {
@@ -148,7 +148,7 @@ body {
 
 .button-icon__icon  {
   height: 22px;
-  margin-right: 12px;
+  margin-right: 8px;
   width: 22px;
 }
 
@@ -181,7 +181,92 @@ body {
 }
 
 .arrow-to-down {
+  margin-bottom: 26px;
   text-align: center;
+}
+
+.cockpit {
+ display: flex;
+}
+
+.cockpit__img {
+  height: 62.5vw;
+  background: url(../img/2013-tesla-model-s-cockpit.svg) left bottom no-repeat;
+  position: relative;
+  width: 69.5%;
+}
+
+.cockpit__title {
+  font-size: 70px;
+  left: 80px;
+  line-height: 85px;
+  color: #E51937;
+  position: absolute;
+}
+
+.cockpit__desc {
+  width: 30.5%;
+  /*padding: 20px 0 0 50px;*/
+  /*box-sizing: border-box;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.desc-block {
+  background: #E51937;
+  color: #FFF;
+}
+
+.desc-block__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 42vw;
+  padding: 20px 0 0 50px;
+}
+
+.desc-block__title {
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 0;
+}
+
+.desc-block__text {
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+.desc-block__features {
+  width: 257px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18.4vw;
+}
+
+.feature__icon_white {
+  margin-right: 16px;
+  width: 44px;
+}
+
+.desc-block__buttons {
+  display: flex;
+  margin-bottom: 65px;
+  justify-content: space-evenly;
+}
+
+.button-icon_white {
+  color: #fff;
+}
+
+.button-order_white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.car-frame__img {
+  width: 50%;
 }
 
 @media screen and (max-width: 1025px) {
@@ -432,12 +517,4 @@ body {
     width: 160px;
   }
     
-}
-
-.cockpit__img {
-  width: 50%;
-}
-
-.car-frame__img {
-  width: 50%;
 }

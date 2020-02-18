@@ -74,12 +74,14 @@
     </section>
     <section class="cockpit">
       <!-- Левая часть секции (заголвок и картинка кабины) -->
-      <div class="cockpit__wrap">
-      	<h2 class="cockpit__title">Model S</h2>
-        <img src="img/2013-tesla-model-s-cockpit.svg" alt="изображение кабины автомобиля" class="cockpit__img">
-      </div>
+      <!-- <div class="cockpit__wrap"> -->
+      	<div class="cockpit__img">
+      	  <h2 class="cockpit__title">Model S</h2>
+      	</div>
+      <!-- </div> -->
       <!-- Правая часть секции (блок описания) -->
       <div class="cockpit__desc desc-block">
+      	<div class="desc-block__wrap">
       	<!-- Текст с заголовком -->
       	<div class="desc-block__text-block">
       	  <h3 class="desc-block__title">Будущее вождения</h3>
@@ -90,23 +92,30 @@
       	<!-- Преимущества (переиспользуем класс feature) -->
       	<div class="desc-block__features">
       	  <div class="feature feature_white">
-      	    <div class="feature__icon"><img src="img/screen.svg" alt="иконка дисплея"></div>
-      	    <div class="feature__numeral">17</div>
-      	    <div class="feature__desc-big">дюймов</div>
-      	    <div class="feature__desc-small">Большой дисплей</div>
+      	    <div class="feature__icon feature__icon_white"><img src="img/screen.svg" alt="иконка дисплея"></div>
+      	    <div class="feature__text">
+      	      <div class="feature__numeral">17</div>
+      	      <div class="feature__desc-big">дюймов</div>
+      	      <div class="feature__desc-small">Большой дисплей</div>
+      	    </div>
       	  </div>
       	  <div class="feature feature_white">
-      	    <div class="feature__icon"><img src="img/wi-fi.svg" alt="иконка беспроводного соединения"></div>
-      	    <div class="feature__numeral"></div>
-      	    <div class="feature__desc-big">Беспроводное обновление ПО</div>
-      	    <div class="feature__desc-small">Повышенная функциональность</div>
+      	    <div class="feature__icon feature__icon_white"><img src="img/wi-fi.svg" alt="иконка беспроводного соединения"></div>
+      	    <div class="feature__text">
+      	      <div class="feature__numeral"></div>
+      	      <div class="feature__desc-big">Беспроводное обновление ПО</div>
+      	      <div class="feature__desc-small">Повышенная функциональность</div>
+      	    </div>
       	  </div>
       	  <div class="feature feature_white">
-      	    <div class="feature__icon"><img src="img/bag.svg" alt="иконка багажа"></div>
-      	    <div class="feature__numeral">894</div>
-      	    <div class="feature__desc-big">литра</div>
-      	    <div class="feature__desc-small">Объем грузового пространства</div>
+      	    <div class="feature__icon feature__icon_white"><img src="img/bag.svg" alt="иконка багажа"></div>
+      	    <div class="feature__text">
+      	      <div class="feature__numeral">894</div>
+      	      <div class="feature__desc-big">литра</div>
+      	      <div class="feature__desc-small">Объем грузового пространства</div>
+      	    </div>
       	  </div>
+      	</div>
       	</div>
       	<!-- Кнопки (переиспользуем стили кнопок button-icon и button-order) -->
       	<div class="desc-block__buttons">
