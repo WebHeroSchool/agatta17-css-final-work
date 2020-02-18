@@ -1,7 +1,6 @@
 body {
   font: normal 600 15px/18px Montserrat;
   margin: 0;
-  /*width: 1440px;*/
 }
 
 .header {
@@ -204,15 +203,6 @@ body {
   position: absolute;
 }
 
-.cockpit__desc {
-  /*width: 30.5%;*/
-  /*padding: 20px 0 0 50px;*/
-  /*box-sizing: border-box;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: space-between;*/
-}
-
 .desc-block {
   background: #E51937;
   color: #FFF;
@@ -313,6 +303,7 @@ body {
 
   .desc-block {
     width: 100%;
+    min-width: auto;
   }
 
   .desc-block__wrap {
@@ -331,7 +322,6 @@ body {
   }
 
   .desc-block__buttons {
-    /*justify-content: space-between;*/
     width: 70%;
     margin: 0 auto 70px auto;
     min-width: 435px;
@@ -585,5 +575,46 @@ body {
     margin-right: 0px;
     width: 160px;
   }
+
+  .arrow-to-down {
+    margin-bottom: 0;
+  }
+
+  .cockpit__img {
+    height: 84.6vw;
+    background-size: auto 100%;
+  }
+
+  .cockpit__title {
+    display: none;
+  }
+
+  .desc-block__wrap {
+    padding: 18px 0 0 25px;
+  }
+
+  .desc-block__text-block {
+    width: 100%;
+  }
+
+  .desc-block__title {
+    margin-bottom: 0;
+  }
+
+  .desc-block__features {
+    display: none;
+  }
+
+  .desc-block__buttons {
+    display: none;
+  }
     
+}
+
+@media screen and (max-width: 375px) {
+
+  .cockpit__img {
+    background: url(../img/2013-tesla-model-s-cockpit-phone.png) bottom / 100% no-repeat;
+  }
+
 }
