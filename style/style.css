@@ -260,8 +260,77 @@ body {
   color: #fff;
 }
 
+.car-frame {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-frame__wrap {
+  height: 900px;
+  position: relative;
+  width: 1000px;
+  background: url(../img/Model-S.png) right top 19% no-repeat;
+  background-size: 80%;
+}
+
 .car-frame__img {
-  width: 50%;
+  position: absolute;
+  width: 73vw;
+  right: 5%;
+  top: 20%;
+}
+
+.protection__title {
+  margin-bottom: 30px;
+}
+
+.protection__text {
+  font-size: 17px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.protection__clarification {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.protection__item {
+  display: flex;
+  justify-content: space-between;
+  width: 76%;
+  min-width: 270px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.desc-block__wrap_short {
+  height: 36vw;
+}
+
+.desc-block__safety-sign {
+  display: flex;
+  padding-left: 65px;
+  padding-top: 30px;
+}
+
+.safety-sign__sign {
+  margin-right: 24px;
+  background: url(../img/security.svg) bottom no-repeat;
+  width: 62px;
+}
+
+.safety-sign__big-text {
+  font-size: 50px;
+  margin: 0;
+  line-height: 50px;
+}
+
+.safety-sign__small-text {
+  font-size: 25px;
+  margin: 0;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 1025px) {

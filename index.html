@@ -130,6 +130,7 @@
     <section class="car-frame">
       <!-- Левая часть секции (блок описания — переиспользуем desc-block и его элементы text-block и buttons) -->
       <div class="car-frame__desc desc-block">
+      	<div class="desc-block__wrap desc-block__wrap_short">
         <!-- Текст с заголовком -->
       	<div class="desc-block__text-block">
       	  <h3 class="desc-block__title">Самый безопасный автомобиль в мире</h3>
@@ -139,7 +140,7 @@
       	</div>
       	<!-- Добавили новый блок protection для описания оценки защиты -->
         <div class="protection">
-      	  <h3 class="desc-block__title">Оценка защиты:</h3>
+      	  <h3 class="desc-block__title protection__title">Оценка защиты:</h3>
       	  <div class="protection__item">
       	    <p class="protection__text">Спереди</p>
       	    <div class="protection__star">
@@ -191,10 +192,10 @@
       	  	</div>
       	  </div>
       	</div>
+        </div>
       	<!-- Добавили новый блок safety-sign для описания знака защиты (5 звезд безопасности) -->
       	<div class="desc-block__safety-sign safety-sign">
       	  <div class="safety-sign__sign">
-      	  	<img src="img/security.svg" alt="иконка знак безопасности">
       	  </div>
       	  <div class="safety-sign__text">
       	  	<p class="safety-sign__big-text">5 звезд</p>
@@ -216,7 +217,6 @@
       <div class="car-frame__wrap">
       	<img src="img/Car frame group.svg" alt="Изображение схемы авто" class="car-frame__img">
       </div>
-      <img src="img/WH.svg" alt="разработано в WebHero School" class="wh-logo">
     </section>
   </body>
 </html>
