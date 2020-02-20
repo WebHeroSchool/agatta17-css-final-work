@@ -217,14 +217,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 40vw;
+  min-height: 576px;
   padding: 50px 0 0 50px;
+}
+
+
+.desc-block__text-block{
+  margin-bottom: 2vw;
 }
 
 .desc-block__title {
   font-size: 30px;
   line-height: 37px;
-  margin: 0;
+  margin: 0 20px 0 0;
 }
 
 .desc-block__text {
@@ -247,7 +252,7 @@ body {
 
 .desc-block__buttons {
   display: flex;
-  margin-bottom: 65px;
+  margin-bottom: 4.4vw;
   justify-content: space-evenly;
 }
 
@@ -276,12 +281,12 @@ body {
 .car-frame__img {
   position: absolute;
   width: 73vw;
-  right: 5%;
-  top: 20%;
+  right: 4%;
+  top: 18%;
 }
 
 .protection__title {
-  margin-bottom: 30px;
+  margin-bottom: 2vw;
 }
 
 .protection__text {
@@ -306,13 +311,13 @@ body {
 }
 
 .desc-block__wrap_short {
-  height: 36vw;
+  min-height: 518px;
 }
 
 .desc-block__safety-sign {
   display: flex;
-  padding-left: 65px;
-  padding-top: 30px;
+  padding-left: 4.5vw;
+  padding-top: 2vw;
 }
 
 .safety-sign__sign {
