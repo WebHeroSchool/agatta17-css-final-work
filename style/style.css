@@ -389,7 +389,7 @@ body {
   .cockpit__img {
     width: 100%;
     height: 600px;
-    background-position-y: bottom 100%;
+    background-size: 100%;
   }
 
   .desc-block {
