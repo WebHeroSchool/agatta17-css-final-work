@@ -359,6 +359,14 @@ body {
   line-height: 25px;
 }
 
+@media screen and (max-width: 1150px) {
+
+  .car-frame__img {
+    right: 1%;
+  }
+
+}
+
 @media screen and (max-width: 1025px) {
 
   .nav-items__item {
@@ -609,12 +617,16 @@ body {
     margin: 0;
   }
 
-  .protection-text {
+  .desc-block__text-block {
     width: 100%;
   }
 
   .desc-block__wrap_short {
     flex-direction: column;
+  }
+
+  .desc-block__features {
+    display: none;
   }
 
 }
