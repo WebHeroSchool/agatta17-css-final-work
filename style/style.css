@@ -135,6 +135,8 @@ body {
   background: transparent;
   border: none;
   display: flex;
+  outline: none;
+  cursor: pointer;
 }
 
 .button-icon_black:hover path {
@@ -167,6 +169,8 @@ body {
   text-align: center;
   text-transform: uppercase;
   width: 160px;
+  outline: none;
+  cursor: pointer;
 }
 
 .button-order_red {
